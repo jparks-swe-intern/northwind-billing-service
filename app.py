@@ -13,3 +13,7 @@ def health():
 
 if __name__ == "__main__":
     app.run(port=8080)
+
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
