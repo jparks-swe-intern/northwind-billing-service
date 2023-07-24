@@ -21,3 +21,7 @@ logger = logging.getLogger(__name__)
 @app.route("/invoices")
 def list_invoices():
     return {"invoices": []}
+
+@app.errorhandler(404)
+def not_found(e):
+    return {"error": "not found"}, 404
