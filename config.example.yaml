@@ -1,0 +1,5 @@
+database:
+  host: localhost
+  user: CHANGE_ME
+  password: CHANGE_ME
+admin_token: CHANGE_ME
